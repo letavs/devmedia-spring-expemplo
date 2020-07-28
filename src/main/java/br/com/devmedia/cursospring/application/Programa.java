@@ -12,7 +12,7 @@ import br.com.devmedia.cursospring.domain.Usuario;
 import br.com.devmedia.cursospring.domain.UsuarioServico;
 
 @Configuration
-@ComponentScan
+@ComponentScan("br.com.devmedia.cursospring")
 public class Programa {
 
 	public static void main(String[] args) {
